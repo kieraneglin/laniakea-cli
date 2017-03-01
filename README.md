@@ -4,8 +4,16 @@ A command-line interface for [Laniakea ROM Renamer](https://github.com/kieranegl
 
 ## Usage
 
+Install with
+
 ```
-Usage: node laniakea-cli [options]
+npm install -g laniakea-cli
+```
+
+Use with
+
+```
+Usage: laniakea-cli [options]
 
 Options:
 

@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A CLI tool for Laniakea ROM renamer",
   "main": "laniakea-cli.js",
+  "bin": {
+    "laniakea-cli": "./laniakea-cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
