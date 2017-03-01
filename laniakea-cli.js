@@ -16,6 +16,10 @@ program
   .option('-q, --quiet-console', 'Will silence console output.')
   .parse(process.argv);
 
+if(!program.source || !program.outputDirectory){
+  console.log('Source and output paths must be set.  Quitting');
+  return false;
+}
 if (program.file && program.directory) {
   console.log('File and Directory flags are mutually exclusive. Quitting');
   return false;
