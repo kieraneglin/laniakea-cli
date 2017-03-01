@@ -1,6 +1,6 @@
 {
   "name": "laniakea-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A CLI tool for Laniakea ROM renamer",
   "main": "laniakea-cli.js",
   "bin": {
